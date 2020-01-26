@@ -1,14 +1,13 @@
-php:
-  preset: laravel
-  disabled:
-    - unused_use
-  finder:
-    not-name:
-      - index.php
-      - server.php
-    exclude:
-      - node_modules
-      - storage
+preset: laravel
+disabled:
+  - unused_use
+finder:
+  not-name:
+    - index.php
+    - server.php
+  exclude:
+    - node_modules
+    - storage
       - vendor
 #js:
 #  finder:
